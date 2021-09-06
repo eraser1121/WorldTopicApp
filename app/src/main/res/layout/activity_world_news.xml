@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WorldNews">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/newsbtn1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="BBC News" />
+
+        <Button
+            android:id="@+id/newsbtn2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="CNN News" />
+
+        <Button
+            android:id="@+id/newsbtn3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="NY TIMES" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="680dp" />
+
+</LinearLayout>
